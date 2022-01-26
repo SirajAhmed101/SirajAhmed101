@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body{
+    height: 80rem;
+    background: radial-gradient(#9fa4c4, #b3cdd1);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(73, 72, 72);
+    padding:0 10rem;
+}
+body .logo {
+    width: 30rem;
+    transform: translateX(40rem);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    transform: translateY(-10rem);
+
+}
+.main .left-side{
+    transform: translateY(10rem);
+}
+.main .left-side img{
+width: 40rem;   
+height: inherit; 
+border-radius: 1rem;
+}
+.main .left-side h3{
+    font-size: 1.5rem;
+    font-weight: normal;
+    width: 40rem;
+    padding: 3rem 10rem;
+    text-align: center;
+    line-height: 2rem;
+}
+/* --------------------righhhte-------- */
+.main .right-side{
+    transform: translateX(-10rem) translateY(16rem);
+}
+
+.main .right-side p{
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2.5rem;
+}
+.main .right-side .current-plan{
+    width: 42rem;
+    height: 7rem;
+    border-radius: 0.5rem;
+    border: 0.5rem black;
+    background-color: #e4f4f7;
+    color: #000;
+    padding:1rem 1rem ;
+}
+.main .right-side .price{
+    transform: translateX(35rem) translateY(-3.5rem);
+}
+.main .right-side .more-plans{
+    display: grid;
+    grid-row-gap: 1rem;
+}
+.main .right-side .more-plans p{
+    line-height: 4rem;
+}
+
+
+.main .right-side .more-plans .plans{
+    height: 7rem;
+    border-radius: 0.5rem;
+    border: 0.5rem black;
+    background-color: #e4f4f7;
+    color: #000;
+    padding:1rem 1rem;
+}
+.main .right-side .current-plan:hover{
+    cursor: pointer;
+    transform: translateY(0) scale(1.2);
+    box-shadow: 5px 5px 5px 5px rgba(116, 115, 115, 0.407);
+}
+.main .right-side .more-plans .plans:hover{
+    transform: translateY(0) scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(116, 115, 115, 0.407)
+}
