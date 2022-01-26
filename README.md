@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @SirajAhmed101
-- 👀 I’m interested in Web Development
+- 👀 I’m interested in Coding
 - 🌱 I’m currently learning Javascript...
 - 💞️ I’m looking to collaborate on ...
 - 📫 contact me Email: mdsiraj101@gmail.com
