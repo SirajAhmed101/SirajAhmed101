@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.container{
+    background-color:#35424a;
+    /* background: rgb(15, 55, 68); */
+    height: 100vh;
+}
+.navbar{
+    border:transparent;
+    border-style:solid ;
+    border-bottom-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+h1{
+    font-size: 30px;
+    padding: 0px 150px;
+    color: white;
+}
+small{
+    color: rgb(206, 9, 9);
+    font-size: 25px;
+    padding-right: 5px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    padding-right: 8rem;
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+    padding:0px 30px;
+}
+.list li a:hover{
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.img{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)),url(/pexels-fauxels-3184292.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    padding:100px 220px;
+    color: white;
+    font-size: 55px;
+}
+.para{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin:-2.5rem 5rem;
+}
+.bottom{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom p{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.sub{
+    margin-left: 150px;
+}
+.email{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 350px;
+}
+.btn{
+    width: 8vw;
+    height: 6vh;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background:#e8491d;
+    margin-right: 200px;
+}
+.details{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    justify-content: space-between;
+    padding: 110px;
+    position: relative;
+    bottom:20px;
+
+}
+.htmllogo, .csslogo, .brushlogo{
+    margin-top: 50px;
+    width: 100px;
+    transform: translateX(8rem);
+}
+.details h3{
+    margin: 15px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.details p{
+    margin: 15px 0px;
+    width: 350px;
+    font-size: 15px;
+    color: #000;
+}
+.footer{
+    width: auto;
+    height: 12vh;
+    background-color: #e8491d;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    padding:30px;
+}
+.about{
+    width: auto;
+    height: 70vh;
+    background-color: white;
+}
+.text{
+    width: 55vw;
+    height: 180px;
+    padding: 50px 0 0 130px;
+    font-weight: 100;
+}
+.box1{
+    width: 25vw;
+    height: 25vh;
+    background:#35424a;
+    padding: 20px;
+    margin-top: -220px;
+    margin-left: 700px;
+    color: white;
+}
+.aboutfooter{
+    margin-top: -8em;
+}
+.services{
+    width: auto;
+    height: 70vh;
+    background-color: white;
+}
+.ser{
+    padding-left:65px;
+}
+.boxa,.boxb,.boxc{
+    width: 50em;
+    height:10em;
+    background: #e6e6e6;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.services h3{
+    padding-top: 25px;
+    margin-left: 15px;
+}
+.services p{
+    margin-left: 15px;
+    font-weight: 100;
+}
+
+.formbox{
+    width: 20rem;
+    height: 20rem;
+    background:#35424a ;
+    margin-left: 60em;
+    margin-top: -22em;
+}
+.form2{
+    padding-top: 30px;
+    color: white;
+}
+.q{
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+.name{
+    padding-left: 10px;
+}
+.fname, .emails, .message{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 10px;
+
+}
+
+.send{
+    width: 5vw;
+    height: 6vh;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background:#e8491d;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+footer{
+    margin-top:250px;
+}

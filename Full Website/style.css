@@ -1,0 +1,456 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+a,
+li,
+button {
+	font-family: "muli";
+	cursor: pointer;
+	list-style: none;
+	text-decoration: none;
+}
+p {
+	font-family: "muli";
+}
+/* ======menu style============================================================ */
+header {
+	padding: 0 13rem;
+}
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 12rem;
+}
+header nav .left-side-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+}
+header nav .left-side-menu img {
+	width: 13rem;
+}
+.left-side-menu .sub-menu {
+	display: flex;
+	position: relative;
+	z-index: 99;
+}
+.left-side-menu .sub-menu a {
+	margin-right: 4rem;
+	text-decoration: none;
+}
+.left-side-menu .sub-menu a li {
+	list-style: none;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: grey;
+}
+.sub-menu a li:hover {
+	color: #4b709e;
+}
+header .right-side-menu {
+	width: 50%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	z-index: 99;
+}
+header .right-side-menu .sub-menu {
+	display: flex;
+	justify-content: flex-end;
+}
+header .right-side-menu .sub-menu a {
+	margin-right: 10rem;
+	padding: 0.5rem 2.5rem;
+	list-style: none;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: grey;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 1rem;
+	text-decoration: none;
+}
+header .right-side-menu .sub-menu button {
+	padding: 0.2rem 2rem;
+	font-size: 2rem;
+	font-weight: normal;
+	border: none;
+	border-radius: 2rem;
+	color: #fff;
+	outline: none;
+	background: #6a89af;
+}
+header .right-side-menu .sub-menu button:hover {
+	background-color: #1b3d68;
+}
+
+/* ==================================main section============================================= */
+
+/* =============================left-side-code */
+.wrapper {
+	width: 50%;
+	padding: 0rem 13rem;
+}
+.wrapper .left-side-code h1 {
+	width: 55rem;
+	padding-top: 6rem;
+	font-size: 5rem;
+	font-family: Avenir LT Std;
+	color: #283526;
+	font-size: 7.5rem;
+	line-height: 9rem;
+}
+.wrapper .left-side-code p {
+	width: 50rem;
+	padding-top: 5rem;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #888888;
+}
+.wrapper .left-side-code .button-group {
+	padding-top: 5rem;
+	display: flex;
+}
+.wrapper .left-side-code .button-group img {
+	width: 13rem;
+	height: 4rem;
+}
+.wrapper .left-side-code .button-group .ituneicon {
+	height: 4.4rem;
+}
+.wrapper .left-side-code .button-group a:first-child {
+	margin-right: 2rem;
+}
+
+/* =====================right-side-CODE=========================== */
+
+.wrapper .right-side-code {
+	width: 65rem;
+	height: 98vh;
+	background: #f0f7ff;
+	margin: -60rem 0rem 0rem 58rem;
+	border-radius: 90px 20px 0px 90px;
+}
+.wrapper .right-side-code img {
+	width: 70rem;
+	height: 75rem;
+	position: relative;
+	right: 15rem;
+}
+/* ======================================SectionTWO============================================= */
+.sectiontwo {
+	padding: 0 13rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 9rem;
+}
+
+/* ------------------------------------LEFT SIDE CODE-------------------------------------------- */
+.sectiontwo .left-side-code figure {
+	margin-top: 9.5rem;
+	width: 20rem;
+	height: 65rem;
+	background: #f0f7ff;
+	border-radius: 2rem;
+}
+.sectiontwo .left-side-code img {
+	width: 45rem;
+	height: 58rem;
+	margin: 4rem 0 0 10rem;
+	border-bottom-left-radius: 2rem;
+}
+/* ------------------------------------RIGHT SIDE CODE-------------------------------------------- */
+.sectiontwo .right-side-code h1 {
+	font-family: Avenir LT Std;
+	width: 30rem;
+	font-size: 5.5rem;
+	margin: 28rem 0 0 5rem;
+	color: #283526;
+}
+.sectiontwo .right-side-code p {
+	font-size: 1.8rem;
+	margin: 5rem 0 0 5rem;
+	line-height: 3rem;
+	color: #888888;
+}
+.sectiontwo .right-side-code .button-group {
+	margin: 5rem 0 0 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 2rem;
+	color: #283526;
+}
+.sectiontwo .right-side-code .button-group .cmnbtn {
+	background: #fe7649;
+	width: 15rem;
+	font-size: 1.8rem;
+	height: 6rem;
+	border-radius: 2rem;
+	color: #fff;
+	padding: 1.5rem 3rem;
+	outline: none;
+	border: none;
+}
+.sectiontwo .right-side-code .button-group .nrmbtn {
+	color: black;
+	background-color: #fff;
+	font-size: 1.8rem;
+	height: 6rem;
+	padding: 1.5rem 3rem;
+	outline: none;
+	border: none;
+}
+.sectiontwo .right-side-code .button-group .nrmbtn:hover {
+	background: #fe7649;
+	border-radius: 2rem;
+	color: #fff;
+}
+.sectiontwo .right-side-code .button-group .cmnbtn:hover {
+	background: #c5471d;
+}
+/* ==========================================SectionThree3=============================== */
+.sectionthree {
+	width: 100%;
+	height: 60rem;
+	background: #f0f7ff;
+}
+.sectionthree h1 {
+	font-family: Avenir LT Std;
+	font-size: 5.5rem;
+	padding: 6rem 0 0 35rem;
+	color: #283526;
+}
+.sectionthree p {
+	width: 40.3rem;
+	height: 5rem;
+	font-size: 1.8rem;
+	padding-top: 1rem;
+	line-height: 3rem;
+	margin: auto;
+	color: #888888;
+	text-align: center;
+}
+
+/* ---------------------TASK PART------------------------ */
+.section3task {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 6rem 4rem;
+}
+.section3task .section3icons {
+	width: 40rem;
+	height: 30rem;
+	text-align: center;
+	border-radius: 2rem;
+}
+.section3task .section3icons h3 {
+	font-size: 2rem;
+	padding-top: 2rem;
+	color: #283526;
+}
+.section3task .section3icons img {
+	width: 15rem;
+	height: 15rem;
+	padding-top: 1rem;
+	transition: all 0.6s;
+}
+.section3task #section3icons3 {
+	background: #fff;
+}
+.section3task .section3icons:hover > img {
+	transform: rotate(360deg);
+}
+.section3task .section3icons:hover {
+	background: #fff;
+	box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+}
+
+/* --------------------------------------FOURTH PART-----------------------------------------------------*/
+.fourth {
+	padding: 0 10rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: -10rem;
+}
+/* ---------LEFT-SIDE-CODE---------------------- */
+.fourth .left-side-code h1 {
+	font-family: Avenir LT Std;
+	width: 50rem;
+	font-size: 5.5rem;
+	margin: 28rem 0 0 5rem;
+	color: #283526;
+}
+.fourth .left-side-code p {
+	font-size: 1.8rem;
+	width: 50rem;
+	margin: 5rem 0 0 5rem;
+	line-height: 3rem;
+	color: #888888;
+}
+.fourth .left-side-code .button-group {
+	margin: 5rem 0 0 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 2rem;
+	color: #283526;
+}
+.fourth .left-side-code .button-group .cmnbtn {
+	background: #fe7649;
+	width: 15rem;
+	font-size: 1.8rem;
+	height: 6rem;
+	border-radius: 2rem;
+	color: #fff;
+	padding: 1.5rem 3rem;
+	outline: none;
+	border: none;
+}
+.fourth .left-side-code .button-group .nrmbtn {
+	color: black;
+	background-color: #fff;
+	font-size: 1.8rem;
+	height: 6rem;
+	margin-right: 15rem;
+	padding: 1.5rem 3rem;
+	outline: none;
+	border: none;
+}
+.fourth .left-side-code .button-group .nrmbtn:hover {
+	background: #fe7649;
+	border-radius: 2rem;
+	color: #fff;
+}
+.fourth .left-side-code .button-group .cmnbtn:hover {
+	background: #c5471d;
+}
+/* ---------RIGHT-SIDE-CODE---------------------- */
+
+.fourth .right-side-code img {
+	width: 50rem;
+	height: 70rem;
+	margin: 10rem 0 0 10rem;
+	border-bottom-left-radius: 2rem;
+}
+
+/* ------------------------------SECTIONFIVE--------------------- */
+.tipssection {
+	padding: 5rem 13rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+/* ------------left code------------ */
+.tipssection .left-side-code img {
+	width: 45rem;
+}
+/* -----------------right code----------------- */
+
+.tipssection .right-side-code {
+	margin-top: 6.5rem;
+}
+.tipssection .right-side-code h2 {
+	font-size: 4rem;
+	color: #283526;
+	line-height: 6rem;
+}
+.tipssection .right-side-code h3 {
+	font-size: 2.3rem;
+	color: #283526;
+	line-height: 8rem;
+}
+.tipssection .right-side-code p {
+	font-size: 2rem;
+	color: #888888;
+}
+.tipssection .right-side-code .fas {
+	color: #f75d5d;
+}
+/* =======================================FOOTER========================================= */
+footer {
+	padding: 0 20rem;
+	height: 30rem;
+	background: #f0f7ff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .footerlogo img {
+	width: 13rem;
+	padding-top: 6rem;
+}
+footer .footerlogo small {
+	font-size: 2rem;
+	color: #888888;
+}
+footer .footerabout {
+	padding-top: 6rem;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer .footerabout h3 {
+	font-size: 2rem;
+	color: #283526;
+	line-height: 3rem;
+}
+footer .footerabout p {
+	font-size: 1.5rem;
+	color: #888888;
+}
+
+/* ===========================MEDIA ICON +++++++++++++++ */
+
+.media-icon {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+.media-icon a {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 18rem;
+	background: darkblue;
+	color: white;
+	text-transform: lowercase;
+	font-size: 2rem;
+	padding: 0.8rem;
+	transition: all 0.4s linear;
+	transform: translateX(-15rem);
+	}
+.media-icon .twitter {
+	background: #00acee;
+}
+.media-icon .instagram {
+	background: #e4405f;
+}
+.media-icon .linkedin {
+	background: #0077b5;
+}
+.media-icon .telegram {
+	background: #0088cc;
+}
+.media-icon a:hover {
+	transform: translateX(0);
+}
+.media-icon a .fab {
+	padding-left: 0.5rem;
+	animation: letszoom 3s linear alternate-reverse infinite;
+}
+@keyframes letszoom {
+	from {
+		transform: scale(0.8);
+	}
+	to {
+		transform: scale(1.5);
+	}
+}
